@@ -1,4 +1,5 @@
 const Cryptage = {
+    version: 'v1.0.0',
     toBase64: (str) => {
         return btoa(
             encodeURIComponent(str).replace(
